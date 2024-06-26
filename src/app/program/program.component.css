@@ -1,0 +1,41 @@
+.programme-section {
+  padding: 60px 0;
+  text-align: center;
+}
+.programme-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.programme-title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+  margin: 0.5rem auto 0;
+}
+.programme-item {
+  margin-bottom: 1rem;
+}
+
+.section {
+  padding: 60px 0;
+  text-align: center;
+}
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.section-title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+  margin: 0.5rem auto 0;
+}
+.partner, .sponsor {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+  .ui-carousel .p-carousel-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ui-carousel .p-carousel-item {
+    width: 100% !important;
+  }
+}
